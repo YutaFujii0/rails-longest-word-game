@@ -1,0 +1,10 @@
+<h1>Result</h1>
+
+<h2>Your answer : <%= @answer %></h2>
+<h2>Choice : <%= @choice %></h2>
+<h2>Is english? <%= @english ? "true" : "false" %></h2>
+<h2>Is valid? <%= @valid ? "true" : "false" %></h2>
+<h2>Thus <%= @result ? "true" : "false" %></h2>
+<h2>Your score : <%= @score %></h2>
+
+<%= link_to "Try again", new_path, class: "btn btn-success" %>
